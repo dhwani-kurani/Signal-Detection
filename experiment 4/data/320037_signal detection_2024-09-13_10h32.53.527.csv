@@ -1,0 +1,20 @@
+key_resp.keys	key_resp.corr	tilt		hit	miss	F.A.	C.R.										
+up	1	0		1													
+up	0	4		1													
+up	0	1		1													
+up	1	0		1										Respond YES	Respond NO		
+down	1	-4					1						signal present	Hit	Miss		
+up	0	3		1									signal absent	False Alarm	Correct Rejection		prop hit = hit/hit+miss
+down	1	3			1												prp fa= fa/fa+corr rej
+up	0	-5				1								Respond Yes	Respond NO		
+up	0	4		1									signal present				d-prime= z(prop hit)- z(prop fa)
+up	1	0		1									signal absent				c= -((z(prop hit)+ z(prop fa))/2)
+				7	1	1	1										
+																	
+																	
+																	
+			prop hit=	0.875													
+			prop fa=	0.5													
+																	
+		d-prime	1.15034938														
+		c value	-0.57517469														
